@@ -1,1 +1,18 @@
-# poc-cross-origin-referer
+# Configuration
+
+Declare the following test domains in you `/etc/hosts`
+
+```127.0.0.1 publisher-domain.com cross-origin-domain.com```
+
+# Install
+
+```npm i``
+
+# Run 
+
+```nodemon server.js```
+
+It should start two HTTP apps and listen on 2 ports 9000 and 9001
+
+Navigate to http://publisher-domain.com:9000/index.html 
+
