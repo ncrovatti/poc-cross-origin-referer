@@ -1,12 +1,12 @@
 # Configuration
 
-Declare the following test domains in you `/etc/hosts`
+Declare the following test domains in your `/etc/hosts`
 
 ```127.0.0.1 publisher-domain.com cross-origin-domain.com```
 
 # Install
 
-```npm i``
+```npm i```
 
 # Run 
 
