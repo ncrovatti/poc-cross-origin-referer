@@ -12,7 +12,7 @@ const cross_origin_port = 9001
 
 const options = {
     setHeaders: function (res, path, stat) {
-        res.set('Referrer-Policy', "usafe-url")
+        res.set('Referrer-Policy', "unsafe-url")
     }
 }
 
