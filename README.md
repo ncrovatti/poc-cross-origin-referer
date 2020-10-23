@@ -16,3 +16,6 @@ It should start two HTTP apps and listen on 2 ports 9000 and 9001
 
 Navigate to http://publisher-domain.com:9000/index.html 
 
+# Referrer Policies
+
+![Referrer Policies](https://webdev.imgix.net/referrer-best-practices/referrer-policies.jpg)

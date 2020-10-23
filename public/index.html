@@ -2,14 +2,19 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv=‘Referrer-Policy’ content=‘no-referrer-when-downgrade’>
+  <meta http-equiv='Referrer-Policy' content='usafe-url' />
 </head>
 <body>
+  <h3>Settings</h3>
+  <p>
+    Meta : Referrer-Policy = usafe-url <br/>
+    Header : Referrer-Policy = unsafe-url <br/>
+  </p>
 <h3>Cross Origin Referer</h3>
     <iframe 
       src="http://cross-origin-domain.com:9001/cross-origin-index.html"
       sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"></iframe>
-      
+
  <h3>Same Origin Referer</h3>
       <iframe 
       src="/cross-origin-index.html"

@@ -12,11 +12,11 @@ const cross_origin_port = 9001
 
 const options = {
     setHeaders: function (res, path, stat) {
-        //res.set('Referrer-Policy', "strict-origin-when-cross-origin")
+        res.set('Referrer-Policy', "usafe-url")
     }
 }
 
-app.use(express.static('public'));
+app.use(express.static('public', options));
 referer_enabled_app.use(express.static('public', options));
 
 app.listen(port, () => console.log(`Running on port ${port}!`))
